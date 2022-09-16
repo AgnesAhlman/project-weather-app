@@ -12,8 +12,11 @@ when the base was finished, we divided our tasks, and we followed the Agile Meth
 
 If we had more time, we could work on Geolocation API to make it more professional and easier for users. 
 
-## View it live
+## First hand in as a pair:
 https://weatherapp-2710b8.netlify.app
 
+
+My updated version:
+https://project-weather-app-agnesahlman.netlify.app/
 
 
