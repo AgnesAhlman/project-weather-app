@@ -11,38 +11,40 @@
 
   <body>
     <div class="wrapper">
-      <!-- narbar  -->
-      <div id="navBar">
-        <h2 id="day"></h2>
-        <h2 id="time"></h2>
-      </div>
-
-      <!-- hero -->
-      <div id="hero">
-        <div id="searchBox">
-          <input id="search" type="text" placeholder="Type the city name" />
-          <button id="btn-searchCity">search</button>
+      <div class="weather-app">
+        <!-- narbar  -->
+        <div id="navBar">
+          <h2 id="day"></h2>
+          <h2 id="time"></h2>
         </div>
 
-        <h1 id="hour"></h1>
-        <div id="allInfo">
-          <div class="cityInfo">
-            <h1 id="city"></h1>
-            <h2 id="weather"></h2>
-            <h2 id="degree"></h2>
-            <p id="sunrise"></p>
-            <p id="sunset"></p>
+        <!-- hero -->
+        <div id="hero">
+          <div id="searchBox">
+            <input id="search" type="text" placeholder="Type the city name" />
+            <button id="btn-searchCity">search</button>
+          </div>
+
+          <h1 id="hour"></h1>
+          <div id="allInfo">
+            <div class="cityInfo">
+              <h1 id="city"></h1>
+              <h2 id="weather"></h2>
+              <h2 id="degree"></h2>
+              <p id="sunrise"></p>
+              <p id="sunset"></p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Container -->
-      <div id="container">
-        <div id="details-today"></div>
-        <div id="details-tomorrow"></div>
-        <div id="details-visible"></div>
-        <div id="details"></div>
-        <div id="forecast"></div>
+        <!-- Container -->
+        <div id="container">
+          <div id="details-today"></div>
+          <div id="details-tomorrow"></div>
+          <div id="details-visible"></div>
+          <div id="details"></div>
+          <div id="forecast"></div>
+        </div>
       </div>
     </div>
     <script src="app.js"></script>

@@ -66,24 +66,24 @@ const getIconByWeatherCondition = (condition) => {
 const background = document.querySelector('.wrapper');
 
 // changing the background according to the weather
-const appBackground = (weatherAppearance) => {
-  background.style.backgroundSize = 'cover';
-  background.style.repeat = 'no-repeat';
+// const appBackground = (weatherAppearance) => {
+//   background.style.backgroundSize = 'cover';
+//   background.style.repeat = 'no-repeat';
 
-  if (weatherAppearance === 'Rain') {
-    background.style.backgroundImage =
-      "url('https://st.depositphotos.com/1013195/1395/i/450/depositphotos_13958901-stock-photo-rainy-day.jpg') ";
-  } else if (weatherAppearance === 'Clear') {
-    background.style.backgroundImage =
-      "url('https://wallpaperaccess.com/full/3265126.jpg')";
-  } else if (weatherAppearance === 'Clouds') {
-    background.style.backgroundImage =
-      "url('https://images.unsplash.com/photo-1419833173245-f59e1b93f9ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbHVkeSUyMHNreXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')";
-  } else if (weatherAppearance === 'Snow') {
-    background.style.backgroundImage =
-      "url('https://cdn.pixabay.com/photo/2014/12/02/22/05/snowflakes-554635__340.jpg')";
-  }
-};
+//   if (weatherAppearance === 'Rain') {
+//     background.style.backgroundImage =
+//       "url('https://st.depositphotos.com/1013195/1395/i/450/depositphotos_13958901-stock-photo-rainy-day.jpg') ";
+//   } else if (weatherAppearance === 'Clear') {
+//     background.style.backgroundImage =
+//       "url('https://wallpaperaccess.com/full/3265126.jpg')";
+//   } else if (weatherAppearance === 'Clouds') {
+//     background.style.backgroundImage =
+//       "url('https://images.unsplash.com/photo-1419833173245-f59e1b93f9ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbHVkeSUyMHNreXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')";
+//   } else if (weatherAppearance === 'Snow') {
+//     background.style.backgroundImage =
+//       "url('https://cdn.pixabay.com/photo/2014/12/02/22/05/snowflakes-554635__340.jpg')";
+//   }
+// };
 
 // updating hero function (city name, degree, sunrise & sunset)
 const updateHero = (data) => {
@@ -100,8 +100,8 @@ const updateHero = (data) => {
     .substring(0, 4)} </h6>
    `;
 
-  const weatherAppearance = data.list[0].weather[0].main;
-  appBackground(weatherAppearance);
+  // const weatherAppearance = data.list[0].weather[0].main;
+  // // appBackground(weatherAppearance);
 };
 
 // forecast for the next 5 days
